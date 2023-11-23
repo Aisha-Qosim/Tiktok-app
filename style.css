@@ -1,0 +1,64 @@
+body{
+    padding: 0px;
+    margin: 0px;    
+}
+.main{
+    height: 70px;
+    background-color: #fff #fff white hs 1(0,0%,100%) rgb(255, 255, 255);
+}
+.sub-main{
+    display: flex;
+    gap: 15px;
+}
+.image{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: -55px; 
+    margin-left: 2px;    
+}
+.btn1{
+    height: 40px;
+    width: 380px;
+    border-radius: 20px; 
+    text-align: end; 
+    border: 1px solid gray;
+}
+.search{
+    left: 38%;
+    position: absolute;
+    top: 10px;
+}
+.btns{
+    display: flex;
+    gap: 30px;
+    margin-left: 1100px;
+    height: 30px;
+    margin-top: -52px;
+    align-items: center;
+}
+.upload{
+    background-color: rgb(245, 23, 23);
+    color: #fff;
+    text-align: center;
+    border: none;
+    width: 100px;
+    font-weight: 600;
+    font-size: large;
+}
+.load{
+    background-color: #fff;
+    border: 2px solid whitesmoke;
+    font-weight: 700;
+}
+
+.bugger  div {
+    height: 5px;
+    width: 5px;
+    margin-top: 1px;
+    border-radius: 50%;
+    background: black;
+}
