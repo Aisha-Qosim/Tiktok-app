@@ -193,3 +193,160 @@ span{
     font-weight: 800;
     margin-left: 6px;
 }
+
+/* ay (Sidebar) */
+.sidebar {
+	position: sticky;
+    margin-top: 90px;
+    bottom: 60px;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 250px;
+	height: 100vh;
+	padding: 40px 10px 30px 10px;
+	background: #ffffff;
+	border-right: 1px solid #dbdbdb;
+	transition: 0.3s;
+	overflow-y: auto;
+    z-index: 1;
+    
+  }
+  
+  .sidebar-header {
+	width: 100%;
+	margin-bottom: 44px;
+  }
+  
+  
+  .sidebar button {
+	height: 60px;
+	background: transparent;
+	border: 0;
+	padding: 0;
+	font-family: inherit;
+	color: inherit;
+	cursor: pointer;
+  }
+  
+  .sidebar button > span {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	height: 48px;
+	padding: 0 12px;
+	border-radius: 24px;
+	line-height: 1;
+  }
+  .Login{
+	border: 2px black solid;
+	color: red;
+	width: 200px;
+	height: 40px;
+	justify-content: center;
+	
+	
+  }
+  .Login:hover{
+	background-color: rgb(184, 92, 92);
+  }
+  .sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 250px;
+	height: 100%;
+	padding: 40px 10px 30px 10px;
+	background: #ffffff;
+	border-right: 1px solid #dbdbdb;
+	transition: 0.3s;
+	overflow-y: scroll;
+  }
+  
+  .sidebar-header {
+	width: 100%;
+	margin-bottom: 44px;
+  }
+  
+  
+  .sidebar button {
+	height: 60px;
+	background: transparent;
+	border: 0;
+	padding: 0;
+	font-family: inherit;
+	color: inherit;
+	cursor: pointer;
+  }
+  
+  .sidebar button > span {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	height: 48px;
+	padding: 0 12px;
+	border-radius: 24px;
+	line-height: 1;
+  }
+  .Login{
+	border: 2px black solid;
+	color: red;
+	width: 200px;
+	height: 40px;
+	justify-content: center;
+	
+	
+  }
+  .Login:hover{
+	background-color: rgb(184, 92, 92);
+  }
+  .sidebar button:hover > span {
+	background: #f2f2f2;
+  }
+  
+  .sidebar button:hover > span :is(i, img) {
+	scale: 1.05;
+  }
+  
+  .sidebar button > span > span {
+	transition: 0.3s;
+  }
+  
+  @media (width < 580px) {
+	.logo-img {
+	  display: none;
+	}
+  
+	.logo-icon {
+	  display: block;
+	}
+  
+	.sidebar {
+	  width: 72px;
+	}
+  
+	.sidebar button > span {
+	  width: 50px;
+	}
+  
+	.sidebar button > span > span {
+	  opacity: 0;
+	  visibility: hidden;
+	}
+  }
+  
+  .sidebar button i {
+	position: relative;
+	font-size: 28px;
+	transition: 0.2s;
+  }
+  
+  .sidebar button img {
+	width: 28px;
+	height: 28px;
+	transition: 0.2s;
+  }
